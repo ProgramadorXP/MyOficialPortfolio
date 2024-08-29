@@ -2,14 +2,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faPaperclip } from "@fortawesome/free-solid-svg-icons";
 
-const react = "/icons/react.png";
-const tailwind = "/icons/tailwind.png";
-/*
-const css = '/icons/css.png';
-const js = '/icons/js.png';
-const sass = '/icons/sass.png';
-const bootstrap = '/icons/bootstrap.png';
-*/
 
 const Article = ({ project }) => {
   return (

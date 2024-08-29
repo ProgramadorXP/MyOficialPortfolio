@@ -7,6 +7,7 @@ const sass = '/icons/sass.png';
 const bootstrap = '/icons/bootstrap.png';
 const tailwind = '/icons/tailwind.png';
 const react = '/icons/react.png';
+const ts = '/icons/typescript.png';
 
 const Skills = () => {
     return ( 
@@ -20,6 +21,7 @@ const Skills = () => {
                 <div className="flex justify-center"><img className="h-16 w-16 cursor-pointer transition-all duration-200 hover:scale-105" src={bootstrap} alt="" /></div>
                 <div className="flex justify-center"><img className="h-16 w-16 cursor-pointer transition-all duration-200 hover:scale-105" src={tailwind} alt="" /></div>
                 <div className="flex justify-center"><img className="h-16 w-16 cursor-pointer transition-all duration-200 hover:scale-105" src={react} alt="" /></div>
+                <div className="flex justify-center"><img className="h-16 w-16 cursor-pointer transition-all duration-200 hover:scale-105" src={ts} alt="" /></div>
             </div>
         </section>
      );
